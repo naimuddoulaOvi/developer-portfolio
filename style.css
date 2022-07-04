@@ -8,15 +8,21 @@ h2 {
 p {
     color: dimgray;
 }
+section {
+    margin-bottom: 100px;
+}
 .portfolio {
     display: flex;
+    background: url(images/top-banner.png) no-repeat;
 }
-.portfolio img {
+.portfolio img,
+.about img {
     width: 100%;
 }
 .half-width {
-    width: 50%;
-    padding: 0 5%;
+    width: 40%;
+    padding-left: 5%;
+    margin-left: 2%;
 }
 .half-width span {
     color: orange;
@@ -29,4 +35,11 @@ p {
     border-radius: 5px;
     font-weight: bold;
     text-transform: uppercase;
+}
+.about {
+    display: flex;
+    background: url(images/dream-bg.png) no-repeat right;
+}
+.about h2 {
+    font-size: 40px;
 }
